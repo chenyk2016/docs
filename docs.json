@@ -16,6 +16,7 @@
     "tabs": [
       {
         "tab": "文档",
+        "href": "/",
         "groups": [
           {
             "group": "开始使用",
