@@ -20,7 +20,7 @@
   },
   "navigation": {
     "pages": [
-      "index",
+      "home",
       "what-are-skills",
       "specification",
       {
