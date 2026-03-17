@@ -13,42 +13,37 @@
     "library": "lucide"
   },
   "navigation": {
-    "languages": [
+    "tabs": [
       {
-        "tabs": [
+        "tab": "文档",
+        "groups": [
           {
-            "tab": "文档",
-            "groups": [
-              {
-                "group": "开始使用",
-                "icon": "rocket",
-                "pages": [
-                  "index",
-                  "what-are-skills",
-                  "specification"
-                ]
-              },
-              {
-                "group": "创建技能",
-                "icon": "pen-tool",
-                "pages": [
-                  "skill-creation/best-practices",
-                  "skill-creation/evaluating-skills",
-                  "skill-creation/optimizing-descriptions",
-                  "skill-creation/using-scripts"
-                ]
-              },
-              {
-                "group": "客户端实现",
-                "icon": "code",
-                "pages": [
-                  "client-implementation/adding-skills-support"
-                ]
-              }
+            "group": "开始使用",
+            "icon": "rocket",
+            "pages": [
+              "index",
+              "what-are-skills",
+              "specification"
+            ]
+          },
+          {
+            "group": "创建技能",
+            "icon": "pen-tool",
+            "pages": [
+              "skill-creation/best-practices",
+              "skill-creation/evaluating-skills",
+              "skill-creation/optimizing-descriptions",
+              "skill-creation/using-scripts"
+            ]
+          },
+          {
+            "group": "客户端实现",
+            "icon": "code",
+            "pages": [
+              "client-implementation/adding-skills-support"
             ]
           }
-        ],
-        "language": "zh"
+        ]
       }
     ]
   },
