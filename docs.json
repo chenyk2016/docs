@@ -64,5 +64,12 @@
     "socials": {
       "github": "https://github.com/agentskills/agentskills"
     }
-  }
+  },
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/index",
+      "permanent": false
+    }
+  ]
 }
