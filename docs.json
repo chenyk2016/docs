@@ -12,53 +12,45 @@
   "icons": {
     "library": "lucide"
   },
+  "navbar": {
+    "primary": {
+      "type": "github",
+      "href": "https://github.com/agentskills/agentskills"
+    }
+  },
   "navigation": {
-    "tabs": [
+    "pages": [
+      "index",
+      "what-are-skills",
+      "specification",
       {
-        "tab": "文档",
-        "href": "/",
-        "groups": [
-          {
-            "group": "开始使用",
-            "icon": "rocket",
-            "pages": [
-              "index",
-              "what-are-skills",
-              "specification"
-            ]
-          },
-          {
-            "group": "创建技能",
-            "icon": "pen-tool",
-            "pages": [
-              "skill-creation/best-practices",
-              "skill-creation/evaluating-skills",
-              "skill-creation/optimizing-descriptions",
-              "skill-creation/using-scripts"
-            ]
-          },
-          {
-            "group": "客户端实现",
-            "icon": "code",
-            "pages": [
-              "client-implementation/adding-skills-support"
-            ]
-          }
+        "group": "创建技能",
+        "pages": [
+          "skill-creation/best-practices",
+          "skill-creation/optimizing-descriptions",
+          "skill-creation/evaluating-skills",
+          "skill-creation/using-scripts"
+        ]
+      },
+      {
+        "group": "客户端实现",
+        "pages": [
+          "client-implementation/adding-skills-support"
         ]
       }
+    ]
+  },
+  "contextual": {
+    "options": [
+      "copy",
+      "view",
+      "chatgpt",
+      "claude"
     ]
   },
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "GitHub",
-        "href": "https://github.com/agentskills/agentskills"
-      }
-    ]
   },
   "footer": {
     "socials": {
