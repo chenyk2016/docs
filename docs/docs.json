@@ -1,17 +1,13 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Agent Skills 中文文档",
-  "description": "Agent Skills 是一个简单、开放的格式，用于赋予 AI 智能体新的能力和专业知识",
+  "name": "Agent Skills",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#55D799",
-    "dark": "#0A7A5E"
+    "primary": "#7f7f7f",
+    "light": "#bfbfbf",
+    "dark": "#404040"
   },
   "favicon": "/favicon.svg",
-  "icons": {
-    "library": "lucide"
-  },
   "navbar": {
     "primary": {
       "type": "github",
@@ -24,7 +20,7 @@
       "what-are-skills",
       "specification",
       {
-        "group": "创建技能",
+        "group": "For skill creators",
         "pages": [
           "skill-creation/best-practices",
           "skill-creation/optimizing-descriptions",
@@ -33,7 +29,7 @@
         ]
       },
       {
-        "group": "客户端实现",
+        "group": "For client implementors",
         "pages": [
           "client-implementation/adding-skills-support"
         ]
@@ -45,16 +41,17 @@
       "copy",
       "view",
       "chatgpt",
-      "claude"
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
     ]
   },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "footer": {
-    "socials": {
-      "github": "https://github.com/agentskills/agentskills"
+  "redirects": [
+    {
+      "source": "/integrate-skills",
+      "destination": "/client-implementation/adding-skills-support"
     }
-  }
+  ]
 }
